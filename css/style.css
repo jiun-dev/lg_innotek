@@ -6,6 +6,9 @@ html,body {
 body {
     font:16px/1.4 "Nanum Gothic",sans-serif;
     color:#333;
+    width: 100%;
+    height: 100%;
+    
 }
 ul {list-style:none;}
 
@@ -17,3 +20,95 @@ a,a:link{
 .notext {
     display: none;
 }
+
+header {
+    width: 100%;
+    /* height: 50px; */
+    z-index: 9999; 
+    position: fixed; 
+    background-color: white;
+}
+
+.logo {
+    max-width: 100%; 
+    /* z-index: 9998;  */
+    /* position: fixed;  */
+}
+
+.navbar {
+    text-align: center;
+    /* font-size: 0; */
+    margin-left: 850px;
+    margin-top: -70px;
+    overflow: hidden;
+    /* margin-left: 800px; */
+    
+    background-color: white;
+    
+}
+
+.navbar li {
+    /* display: inline; */
+    line-height: 71px;
+    font-size: 1.266rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    float: right;
+    
+}
+
+.navbar li a {
+    display: block;
+    /* color: white; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.main_menu ul {
+    display: none;
+}
+
+/*-------------header---------------*/
+section {
+    margin-top: 0px;
+    /* padding-top: 200px; */
+}
+.slider {
+    /* display: none; */
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.slide_img img {
+    width: 1400px;
+    height: 750px;
+    text-align: center;
+    float: left;
+   
+}
+
+/* #slide1 {
+    left:0px;
+}
+
+#slide2 {
+    left: 1400px;
+}
+
+#slide3 {
+    left: 2800px;
+}
+
+#slide4 {
+    left: 3200px;
+}
+
+#slide5 {
+    left: 5600px;
+} */
+
+
+
