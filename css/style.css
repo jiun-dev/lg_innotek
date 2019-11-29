@@ -72,10 +72,9 @@ header {
 /*-------------header---------------*/
 section {
     margin-top: 0px;
-    /* padding-top: 200px; */
 }
 .slider {
-    /* display: none; */
+    display: none;
     box-sizing: border-box;
     position: relative;
     float: left;
@@ -87,28 +86,5 @@ section {
     height: 750px;
     text-align: center;
     float: left;
-   
 }
-
-/* #slide1 {
-    left:0px;
-}
-
-#slide2 {
-    left: 1400px;
-}
-
-#slide3 {
-    left: 2800px;
-}
-
-#slide4 {
-    left: 3200px;
-}
-
-#slide5 {
-    left: 5600px;
-} */
-
-
 
