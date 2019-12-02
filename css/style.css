@@ -216,7 +216,37 @@ section {
   /*--------news---------*/
 
   .news {
-    margin-top: 800px;
-    /* display: none; */
+    margin-top: 300px;
+    width: 100%;
   }
 
+  .grid_left {
+    float: left;
+  }
+
+  .grid_right {
+    /* float: left; */
+  }
+
+  
+ .news_s1 {
+   position: relative;
+   float: left;
+   display: inline-block;
+ }
+ 
+ .news_list1 {
+   margin-left: -50px;
+ }
+ 
+ .news_list2 {
+  margin-top: -430px;
+  margin-left: 730px;
+ }
+
+ .news_list3 {
+  margin-top: -210px;
+  margin-left: 730px;
+ }
+ 
+  
