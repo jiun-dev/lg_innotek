@@ -321,6 +321,7 @@ section {
 .footer {
   /* text-align: center; */
   font-weight: 800;
+  
 }
 
 .footer_top{
@@ -328,20 +329,25 @@ section {
   margin-top: 500px;
   /* text-align: center; */
   font-weight: 800;
+  margin-left: 200px;
 }
 
 .footer_bottom {
   /* text-align: center; */
   display: inline;
+  margin-left: 200px;
 }
 
 .foot_menu li {
   float: left;
   width: 16%;
+  margin-left: 200px;
+  line-height: 20px;
 }
 
 .foot_copy {
   position: absolute;
   margin-top: 100px;
   float: left;
+  margin-left: 200px;
 }
