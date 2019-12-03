@@ -9,6 +9,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    font-weight: 800;
 }
 ul {list-style:none;}
 
@@ -281,5 +282,66 @@ section {
    /* margin-top: 900px; */
    padding-top: 780px;
  }
+
+ .banner_1 {
+  /* margin-top: 0; */
+  margin-left: 200px;
+  position: absolute;
+ }
+
+ .banner_2 {
+  margin-left: 680px;
+  position: absolute;
+ }
  
-  
+ .inside {
+   margin-top: 500px;
+ }
+
+ .banner1 {
+  float: left;
+  position: relative;
+  margin-left: 200px;
+  font-weight: 800;
+}
+
+.banner2 {
+  font-weight: 800;
+  float: left;
+  position: relative;
+  margin-top: 500px;
+  margin-left: -200px;
+}
+
+.banner3 {
+  position: relative;
+  font-weight: 800;
+}
+
+.footer {
+  /* text-align: center; */
+  font-weight: 800;
+}
+
+.footer_top{
+  position: relative;
+  margin-top: 500px;
+  /* text-align: center; */
+  font-weight: 800;
+}
+
+.footer_bottom {
+  /* text-align: center; */
+  display: inline;
+}
+
+.foot_menu li {
+  float: left;
+  width: 16%;
+}
+
+.foot_copy {
+  position: absolute;
+  margin-top: 100px;
+  float: left;
+}
