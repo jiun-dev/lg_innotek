@@ -248,5 +248,38 @@ section {
   margin-top: -210px;
   margin-left: 730px;
  }
+
+ .newsroom_list  {
+  float: left;
+  /* display: inline; */
+  /* position: absolute; */
+  text-align: center;
+  margin-top: 300px;
+ }
+
+ .newsroom_1 {
+  margin-top: -288px;
+  margin-left: 200px;
+  position: absolute;
+}
+
+ .newsroom_2 {
+  margin-top: -288px;
+  margin-left: 500px;
+  position: absolute;
+ }
+
+ .newsroom_3 {
+  margin-top: -288px;
+  margin-left: 800px;
+  position: absolute;
+ }
+
+ .news_banner {
+   /* float: left; */
+   position: relative;
+   /* margin-top: 900px; */
+   padding-top: 780px;
+ }
  
   
