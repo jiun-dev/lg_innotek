@@ -1,28 +1,21 @@
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+const all = ele => document.querySelectorAll(ele)
+const one = ele => document.querySelector(ele)
+const slide = _ => {
+  const wrap = one('.slide') // .slide 선택
+  const target = wrap.children[0] // .slide ul 선택
+  const len = target.children.length // .slide li 갯수
+  // .slide ul의 너비 조정
+  target.style.cssText = `width:calc(100% * ${len});display:flex;transition:1s;`
+  // .slide li의 너비 조정
+  Array.from(target.children)
+  .forEach(ele => ele.style.cssText = `width:calc(100% / ${len});`)
+  // 화면 전환 실행
+  let pos = 0
+  setInterval(() => {
+    pos = (pos + 1) % len // 장면 선택
+    target.style.marginLeft = `${-pos * 100}%`
+  }, 1500) // 1500 = 1500ms = 1.5sec. 즉, 1.5초 마다 실행
 }
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+window.onload = function () {
+  slide()
 }
