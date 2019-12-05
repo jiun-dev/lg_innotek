@@ -24,6 +24,19 @@ a,a:link{
 
 * {box-sizing:border-box}
 
+/* .vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+} */
+
+/* hr {
+  width: 2000px;
+} */
+
 /*-------------header---------------*/
 
 
@@ -252,9 +265,10 @@ section {
 }
 
 .footer {
+  width: 100%;
   /* text-align: center; */
   font-weight: 800;
-  
+  float: left;
 }
 
 .footer_top{
@@ -263,6 +277,10 @@ section {
   /* text-align: center; */
   font-weight: 800;
   margin-left: 200px;
+}
+
+.footer_top p:hover {
+  color: black;
 }
 
 .footer_bottom {
@@ -278,9 +296,15 @@ section {
   line-height: 20px;
 }
 
+.foot_menu li a:hover {
+  font-weight: bolder;
+  color: black;
+}
+
 .foot_copy {
   position: absolute;
   margin-top: 100px;
   float: left;
   margin-left: 200px;
+
 }
